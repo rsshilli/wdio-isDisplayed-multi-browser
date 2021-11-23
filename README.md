@@ -1,5 +1,5 @@
 To reproduce:
-1. Run it normally, and you'll see it will pass:
+1. Run it normally, and you'll see it will pass (at least on Windows):
 ```shell
 npm install
 npm run wdio
@@ -12,7 +12,7 @@ docker build -t mydockerimage .
 
 3. Start the docker container:
 ```shell
-docker run -v $(pwd):/root/ -it mydockerimage /bin/sh
+docker run -v $(pwd):/root/project -it mydockerimage /bin/sh
 ```
 
 For me on Windows, I've checked this out to `C:\projects\wdio-isDisplayed-multi-browser` so I ran:
