@@ -1,0 +1,130 @@
+node_modules/*
+
+# IDEA
+# ----
+.idea
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+/buildSrc/*.iml
+/buildSrc/*.ipr
+/buildSrc/*.iws
+/buildSrc/out
+/out
+/*/*.iml
+/*/out
+
+# Eclipse
+# -------
+*.classpath
+*.project
+*.settings
+/bin
+/subprojects/*/bin
+atlassian-ide-plugin.xml
+
+# NetBeans
+# --------
+.nb-gradle
+.nb-gradle-properties
+
+# Vim
+# ---
+*.sw[op]
+
+# Emacs
+# -----
+*~
+
+# Textmate
+# --------
+.textmate
+
+# Sublime Text
+# ------------
+*.sublime-*
+
+# jEnv
+# ----
+.java-version
+
+# OS X
+# ----
+.DS_Store
+
+# HPROF
+# -----
+*.hprof
+
+# Work dirs
+# ---------
+/incoming-distributions
+/intTestHomeDir
+
+# Logs
+# ----
+/*.log
+
+# Serverless
+# ----------
+.serverless
+
+# Visual Studio
+# -------------
+/.vs
+/.vscode
+.jsbeautifyrc
+
+# Excel temp files
+# ----------------
+~$*.xlsx
+
+# Telerik license
+kendo-ui-license.txt
+
+# Kons Local .bat wrapper helpers
+# ----------
+set-aws-env-variables.bat
+debug-local-backend.bat
+deploy-local-backend.bat
+debug-local-backend.sh
+deploy-local-frontEnd.bat
+deploy-local-frontEnd.sh
+deploy-remote.bat
+monitor-local-build-changes.bat
+pull-db-schema.bat
+push-db-schema.bat
+test-local-watch.bat
+test-remote-all.bat
+test-remote-watch.bat
+test-remote-watch.sh
+undeploy-remote.bat
+test-local-watch-firefox.bat
+test-remote-watch-firefox.bat
+pull-db-schema.sh
+test-local-watch.sh
+test-remote-all.sh
+deploy-local-backend.sh
+deploy-local-frontend.sh
+monitor-local-build-changes.sh
+new-client-sql.bat
+deploy-remote.sh
+migrate-local-db.bat
+migrate-local-db.sh
+build_scripts/gradle-dev.properties
+build_scripts/gradle-cicdkons2.properties
+build_scripts/gradle-cicdkons3.properties
+build_scripts/gradle-staging.properties
+build_scripts/gradle-prod.properties
+build_scripts/gradle-demo.properties
+build_scripts/gradle-sandbox*.properties
+build_scripts/gradle-dev-staging-circleci.properties
+build_scripts/gradle-dev-staging-cp.properties
+build_scripts/gradle-dev-staging-dr.properties
+build_scripts/gradle-validated.properties
+build_scripts/gradle-validated-staging.properties
+build_scripts/gradle-validated-pstaging.properties
+build_scripts/gradle-ent*.properties
+/build_scripts/gradle-je-pharma.properties
+/build_scripts/gradle-local.properties
