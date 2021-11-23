@@ -12,7 +12,7 @@ docker build -t mydockerimage .
 
 3. Start the docker container:
 ```shell
-docker run -v $(pwd):/root/project -it mydockerimage /bin/sh
+docker run -v $(pwd):/root/project -it mydockerimage bash
 ```
 
 For me on Windows, I've checked this out to `C:\projects\wdio-isDisplayed-multi-browser` so I ran:
