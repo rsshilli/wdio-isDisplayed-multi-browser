@@ -38,3 +38,8 @@ npm install
 ```shell
 npm run wdio
 ```
+
+The failure should look like:
+
+![Image Of Webdriver.io failing](https://github.com/rsshilli/wdio-isDisplayed-multi-browser/blob/main/imageOfFailure.png?raw=true)
+
